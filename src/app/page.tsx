@@ -18,8 +18,9 @@ import {
   Settings,
   Download,
   CheckCircle2,
-  IndianRupee,
+  DollarSign,
   Infinity,
+  Building2,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -117,9 +118,9 @@ const features = [
   },
   {
     icon: Shield,
-    title: "Secure & Self-Hosted",
+    title: "Enterprise Security",
     description:
-      "Your data stays safe. Hosted on infrastructure with Supabase. Full control, no vendor lock-in, enterprise-grade security.",
+      "Your data stays safe with end-to-end encryption, role-based access, and compliance with global privacy standards. Enterprise-grade protection without the complexity.",
   },
 ];
 
@@ -150,7 +151,7 @@ const faqs = [
   },
   {
     q: "Is my data secure?",
-    a: "Absolutely. Chatio is hosted on infrastructure with Supabase. If you want to host your self we can share entire project code. You have full control over your data, encryption keys, and backups.",
+    a: "Absolutely. Chatio runs on secure cloud infrastructure with enterprise-grade encryption and regular backups. Your data is fully protected, never shared, and always compliant with international security standards.",
   },
   {
     q: "How do I get started?",
@@ -240,7 +241,7 @@ export default function HomePage() {
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="h-4 w-4 text-emerald-500" />
-                Self-Hosted & Secure
+                Enterprise Security
               </span>
             </div>
           </div>
@@ -269,7 +270,7 @@ export default function HomePage() {
               <Bot className="h-5 w-5 text-primary" /> E‑commerce Stores
             </span>
             <span className="flex items-center gap-2 text-sm font-medium">
-              <IndianRupee className="h-5 w-5 text-primary" /> Indian Businesses
+              <Building2 className="h-5 w-5 text-primary" /> Enterprises
             </span>
           </div>
         </div>
@@ -409,7 +410,7 @@ export default function HomePage() {
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { value: "Free", label: "Forever", icon: Infinity },
-              { value: "0", label: "Setup Cost", icon: IndianRupee },
+              { value: "0", label: "Setup Cost", icon: DollarSign },
               {
                 value: "20+",
                 label: "Currencies Supported",
