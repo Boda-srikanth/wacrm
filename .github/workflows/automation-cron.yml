@@ -1,0 +1,15 @@
+name: Automation Cron
+
+on:
+  schedule:
+    - cron: '* * * * *'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call Automation Cron
+        run: |
+          curl -H "x-cron-secret: ${{ secrets.CRON_SECRET }}" \
+          https://chatio.satinova.in//api/automations/cron
