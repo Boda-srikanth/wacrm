@@ -23,9 +23,10 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Chatio — Free Forever CRM Whatsapp Cloud API Integrated | Best Customer Management Software",
+  title:
+    "Chatio — Free Forever CRM WhatsApp Cloud API Integrated | Best Customer Management Software",
   description:
-    "The best customer management software with WhatsApp cloud api. Free forever CRM with shared inbox, bulk WhatsApp sender, contact management, pipelines, automations, and no-code flows. Built on WhatsApp Cloud API.",
+    "The best customer management software with WhatsApp Cloud API. Free forever CRM with shared inbox, bulk WhatsApp sender, contact management, pipelines, automations, and no-code flows. Supports 20+ currencies.",
   keywords: [
     "crm relationship management",
     "crm customer management",
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Chatio — Free Forever WhatsApp CRM",
     description:
-      "The best customer management software for WhatsApp. Free forever CRM with shared inbox, bulk WhatsApp sender, contact management, pipelines, automations.",
+      "The best customer management software for WhatsApp. Free forever CRM with shared inbox, bulk WhatsApp sender, contact management, pipelines, automations. Supports 20+ currencies.",
   },
 };
 
@@ -52,49 +53,49 @@ const features = [
     icon: Inbox,
     title: "Shared Inbox",
     description:
-      "Team-wide WhatsApp inbox with real-time messaging, typing indicators, read receipts, and message reactions. Never miss a customer message again.",
+      "Team-wide WhatsApp inbox with real-time messaging, typing indicators, read receipts, and reactions. Never miss a customer message again.",
   },
   {
     icon: Users,
     title: "Contact Management",
     description:
-      "Organise contacts with custom fields, tags, and import from CSV. Track every interaction and keep your customer data clean and accessible.",
+      "Organise contacts with custom fields, tags, and CSV import. Track every interaction and keep customer data clean, searchable, and always up-to-date.",
   },
   {
     icon: GitBranch,
     title: "Sales Pipelines",
     description:
-      "Kanban-style deal tracking with custom stages, deal values in INR, and pipeline analytics. Move deals from lead to won with full visibility.",
+      "Kanban-style deal tracking with custom stages, multi-currency deal values, and pipeline analytics. Move deals from lead to won with full visibility in INR, USD, EUR, and more.",
   },
   {
     icon: Radio,
     title: "Bulk WhatsApp Sender",
     description:
-      "Send broadcast messages to thousands of contacts with a single click. Use Message Templates for approval-free bulk messaging via WhatsApp Cloud API.",
+      "Send broadcast messages to thousands of contacts in a few clicks. Use pre-approved Message Templates for instant, compliant delivery via the WhatsApp Cloud API.",
   },
   {
     icon: Zap,
     title: "No-Code Automations",
     description:
-      "Trigger-based automations for follow-ups, welcome messages, and alerts. Set keywords, schedules, and conditions — no coding required.",
+      "Trigger-based automations for follow-ups, welcome messages, and alerts. Set keywords, schedules, and conditions – no coding required.",
   },
   {
     icon: Workflow,
     title: "Flow Builder",
     description:
-      "Visual drag-and-drop flow builder for conversational experiences. Build FAQ bots, lead capture flows, and interactive menus effortlessly.",
+      "Drag-and-drop visual flow builder for conversational experiences. Create FAQ bots, lead capture flows, and interactive menus effortlessly.",
   },
   {
     icon: BarChart3,
     title: "Dashboard & Analytics",
     description:
-      "Real-time metrics on conversations, response times, pipeline health, and team performance. Data-driven decisions made simple.",
+      "Real-time metrics on conversations, response times, pipeline health, and team performance. Make data-driven decisions in seconds.",
   },
   {
     icon: Send,
     title: "WhatsApp Cloud API",
     description:
-      "Integrated with Meta's official WhatsApp Cloud API. Reliable delivery, rich media messages, and full compliance with WhatsApp Business policies.",
+      "Fully integrated with Meta's official WhatsApp Cloud API. Reliable delivery, rich media messages, and complete compliance with WhatsApp Business policies.",
   },
   {
     icon: Users,
@@ -118,7 +119,7 @@ const features = [
     icon: Shield,
     title: "Secure & Self-Hosted",
     description:
-      "Your data stays yours. Self-host on your own infrastructure with Supabase. Full control, no vendor lock-in, enterprise-grade security.",
+      "Your data stays safe. Hosted on infrastructure with Supabase. Full control, no vendor lock-in, enterprise-grade security.",
   },
 ];
 
@@ -129,27 +130,27 @@ const faqs = [
   },
   {
     q: "Do I need my own WhatsApp Business API?",
-    a: "Yes, Chatio uses Meta's official WhatsApp Cloud API. You need a WhatsApp Business Account (free to set up) and a phone number. We guide you through the entire setup process.",
+    a: "Yes, Chatio uses Meta's official WhatsApp Cloud API. You need a WhatsApp Business Account (free to set up) and a phone number. We guide you through the entire setup process in minutes.",
   },
   {
     q: "Can I send bulk WhatsApp messages for free?",
-    a: "Absolutely. Chatio includes a free bulk WhatsApp sender. You pay only Meta's standard messaging fees (which are minimal). There's no markup or premium from Chatio.",
+    a: "Absolutely. Chatio includes a free bulk WhatsApp sender. You only pay Meta's standard messaging fees (which are minimal). There's no markup or premium from Chatio.",
   },
   {
     q: "Is it a CRM or just a WhatsApp tool?",
-    a: "It's a full CRM with WhatsApp integration. You get contact management, sales pipelines, team inbox, analytics, automations, and more — all built around WhatsApp messaging.",
+    a: "It's a full CRM with WhatsApp at its core. You get contact management, sales pipelines, team inbox, analytics, automations, and more – all built around WhatsApp messaging.",
   },
   {
     q: "Can I use Chatio with my team?",
-    a: "Yes! Add unlimited team members with role-based access. Share contacts, assign conversations, and collaborate in real-time.",
+    a: "Yes! Invite unlimited team members and assign role-based access. Share contacts, assign conversations, and collaborate in real time.",
   },
   {
     q: "What currencies are supported?",
-    a: "Chatio supports Indian Rupee (INR ₹) for deal values and pipeline tracking. Perfect for Indian businesses and startups.",
+    a: "Chatio supports 20+ currencies including INR, USD, EUR, GBP, and many more for deal values and pipeline tracking. Perfect for global businesses, startups, and agencies.",
   },
   {
     q: "Is my data secure?",
-    a: "Absolutely. Chatio is self-hosted on your infrastructure with Supabase. You have full control over your data, encryption keys, and backups.",
+    a: "Absolutely. Chatio is hosted on infrastructure with Supabase. If you want to host your self we can share entire project code. You have full control over your data, encryption keys, and backups.",
   },
   {
     q: "How do I get started?",
@@ -197,13 +198,17 @@ export default function HomePage() {
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
               The Best{" "}
               <span className="text-primary">Customer Management</span>{" "}
-              Software for WhatsApp
+              Software Whatsapp Cloud API Integrated
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground sm:text-xl">
-              Free forever WhatsApp CRM with shared inbox, bulk messaging, contact
-              management, sales pipelines, and no-code automations. The ultimate{" "}
-              <strong className="text-foreground">CRM relationship management</strong>{" "}
-              platform built for WhatsApp Business.
+              Free forever WhatsApp CRM with shared inbox, bulk messaging,
+              contact management, sales pipelines, and no‑code automations. The
+              ultimate{" "}
+              <strong className="text-foreground">
+                CRM relationship management
+              </strong>{" "}
+              platform built for WhatsApp Business – now supporting 20+
+              currencies.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Link
@@ -211,7 +216,7 @@ export default function HomePage() {
                 className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-primary px-8 text-base font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:bg-primary/90 sm:w-auto"
               >
                 <MessageCircle className="h-5 w-5" />
-                Start Free — No Credit Card
+                Start Free Forever
               </Link>
               <Link
                 href="#features"
@@ -231,7 +236,7 @@ export default function HomePage() {
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="h-4 w-4 text-emerald-500" />
-                Indian Rupee (₹) Support
+                Supports 20+ Currencies
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="h-4 w-4 text-emerald-500" />
@@ -258,10 +263,10 @@ export default function HomePage() {
               <Users className="h-5 w-5 text-primary" /> Startup Teams
             </span>
             <span className="flex items-center gap-2 text-sm font-medium">
-              <Globe className="h-5 w-5 text-primary" /> Freelancers
+              <Globe className="h-5 w-5 text-primary" /> Global Freelancers
             </span>
             <span className="flex items-center gap-2 text-sm font-medium">
-              <Bot className="h-5 w-5 text-primary" /> E-commerce Stores
+              <Bot className="h-5 w-5 text-primary" /> E‑commerce Stores
             </span>
             <span className="flex items-center gap-2 text-sm font-medium">
               <IndianRupee className="h-5 w-5 text-primary" /> Indian Businesses
@@ -279,8 +284,9 @@ export default function HomePage() {
               <span className="text-primary">CRM Customer Management</span>
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              From bulk WhatsApp messaging to sales pipelines — Chatio is the
-              best customer management software for WhatsApp. Free forever.
+              From bulk WhatsApp messaging to multi‑currency sales pipelines –
+              Chatio is the best customer management software for WhatsApp. Free
+              forever, now with 20+ currency support.
             </p>
           </div>
           <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -320,9 +326,9 @@ export default function HomePage() {
                 Free Bulk WhatsApp Message Sender
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Reach thousands of customers instantly with our free bulk WhatsApp
-                sender. Powered by WhatsApp Cloud API — reliable, fast, and
-                compliant.
+                Reach thousands of customers instantly with our free bulk
+                WhatsApp sender. Powered by WhatsApp Cloud API — reliable, fast,
+                and fully compliant.
               </p>
               <ul className="mt-8 space-y-4">
                 {[
@@ -331,7 +337,7 @@ export default function HomePage() {
                   "Personalise each message with contact variables",
                   "Schedule broadcasts for optimal send times",
                   "Track delivery, read, and reply rates",
-                  "No per-message platform fees — pay only Meta's charges",
+                  "No per‑message platform fees – pay only Meta's charges",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-emerald-500" />
@@ -376,22 +382,18 @@ export default function HomePage() {
                 </div>
                 <div className="mt-6 grid grid-cols-3 gap-3 border-t border-border pt-6 text-center">
                   <div>
-                    <p className="text-2xl font-bold text-foreground">₹0</p>
+                    <p className="text-2xl font-bold text-foreground">0</p>
                     <p className="text-xs text-muted-foreground">
                       Platform Fee
                     </p>
                   </div>
                   <div>
                     <p className="text-2xl font-bold text-foreground">∞</p>
-                    <p className="text-xs text-muted-foreground">
-                      No Limits
-                    </p>
+                    <p className="text-xs text-muted-foreground">No Limits</p>
                   </div>
                   <div>
                     <p className="text-2xl font-bold text-foreground">99%</p>
-                    <p className="text-xs text-muted-foreground">
-                      Uptime
-                    </p>
+                    <p className="text-xs text-muted-foreground">Uptime</p>
                   </div>
                 </div>
               </div>
@@ -407,8 +409,12 @@ export default function HomePage() {
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { value: "Free", label: "Forever", icon: Infinity },
-              { value: "₹0", label: "Setup Cost", icon: IndianRupee },
-              { value: "100%", label: "WhatsApp API Compliant", icon: CheckCircle2 },
+              { value: "0", label: "Setup Cost", icon: IndianRupee },
+              {
+                value: "20+",
+                label: "Currencies Supported",
+                icon: Globe,
+              },
               { value: "10 min", label: "Setup Time", icon: Download },
             ].map((stat) => {
               const StatIcon = stat.icon;
@@ -445,9 +451,10 @@ export default function HomePage() {
                 <span className="text-primary">100% Free</span>
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                No hidden fees. No paid plans. No credit card required. Get the
+                No hidden fees. No paid plans. Get the
                 best customer management software for WhatsApp completely free.
-                Start managing your CRM customer relationships better today.
+                Start managing your CRM customer relationships better today,
+                with support for 20+ currencies and zero platform cost.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Link
@@ -455,7 +462,7 @@ export default function HomePage() {
                   className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-primary px-8 text-base font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:bg-primary/90 sm:w-auto"
                 >
                   <MessageCircle className="h-5 w-5" />
-                  Get Started Free — No CC Required
+                  Get Started Free Forever
                 </Link>
               </div>
               <p className="mt-4 text-sm text-muted-foreground">
@@ -517,17 +524,26 @@ export default function HomePage() {
               <span className="text-sm font-bold text-foreground">Chatio</span>
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
-              <Link href="/login" className="transition-colors hover:text-foreground">
+              <Link
+                href="/login"
+                className="transition-colors hover:text-foreground"
+              >
                 Sign In
               </Link>
-              <Link href="/signup" className="transition-colors hover:text-foreground">
+              <Link
+                href="/signup"
+                className="transition-colors hover:text-foreground"
+              >
                 Sign Up
               </Link>
             </div>
-            <p className="text-xs text-muted-foreground">
+            <div className="text-xs text-muted-foreground text-center">
               &copy; {new Date().getFullYear()} Chatio. Free forever. Built with
               WhatsApp Cloud API.
-            </p>
+              <br />
+              An initiative by{" "}
+              <span className="font-semibold text-foreground">Satinova</span>
+            </div>
           </div>
         </div>
       </footer>
