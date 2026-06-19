@@ -20,13 +20,37 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "wacrm",
-    template: "%s — wacrm",
+    default: "Chatio — Free WhatsApp CRM | Best Customer Management Software",
+    template: "%s — Chatio",
   },
-  description: "Self-hostable CRM template for WhatsApp.",
-  robots: {
-    index: false,
-    follow: false,
+  description:
+    "Free forever WhatsApp CRM with shared inbox, contact management, sales pipelines, broadcasts, and no-code automations. The best customer management software for WhatsApp. Bulk WhatsApp sender free.",
+  keywords: [
+    "crm relationship management",
+    "crm customer management",
+    "crm customer relationship",
+    "whatsapp bulk message sender free",
+    "best customer management software",
+    "bulk whatsapp sender free",
+    "whatsapp cloud api",
+    "free crm",
+    "whatsapp crm",
+    "customer relationship management",
+  ],
+  openGraph: {
+    title: "Chatio — Free WhatsApp CRM | Best Customer Management Software",
+    description:
+      "Free forever WhatsApp CRM with shared inbox, contact management, sales pipelines, broadcasts, and no-code automations.",
+    url: "https://chatio.satinova.in",
+    siteName: "Chatio",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chatio — Free WhatsApp CRM",
+    description:
+      "Free forever WhatsApp CRM with shared inbox, contact management, sales pipelines, broadcasts, and no-code automations.",
   },
   icons: {
     icon: [{ url: "/icon" }],
@@ -35,6 +59,10 @@ export const metadata: Metadata = {
     email: false,
     address: false,
     telephone: false,
+  },
+  metadataBase: new URL("https://chatio.satinova.in"),
+  alternates: {
+    canonical: "https://chatio.satinova.in",
   },
 };
 
@@ -86,13 +114,6 @@ export default function RootLayout({
       data-theme={DEFAULT_THEME}
       data-mode={DEFAULT_MODE}
       className={`${inter.variable} h-full antialiased`}
-      // The `theme-boot` script below rewrites `data-theme` and
-      // `data-mode` on <html> from localStorage before React hydrates,
-      // so for any non-default choice the client DOM intentionally
-      // differs from the server-rendered defaults. suppressHydration-
-      // Warning silences the expected mismatch — it only applies to
-      // this element's own attributes, so genuine mismatches in
-      // children still surface.
       suppressHydrationWarning
     >
       <head>
