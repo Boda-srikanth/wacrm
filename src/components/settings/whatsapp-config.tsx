@@ -465,7 +465,7 @@ export function WhatsAppConfig() {
                   }
                 >
                   {isRegistered
-                    ? 'Registered — Meta will deliver events to wacrm'
+                    ? 'Registered — Meta will deliver events to Chatio'
                     : 'Not registered — Meta will not deliver events'}
                 </AlertTitle>
               </div>
@@ -646,7 +646,7 @@ export function WhatsAppConfig() {
                   Meta Business Manager → WhatsApp Accounts → Phone
                   Numbers → Two-step verification
                 </strong>
-                , then paste it here so wacrm can subscribe the number —
+                , then paste it here so Chatio can subscribe the number —
                 otherwise Meta routes inbound events to whichever app
                 last claimed it (the symptom that hits second numbers
                 under a shared WABA).{' '}
@@ -835,6 +835,17 @@ export function WhatsAppConfig() {
               >
                 <ExternalLink className="size-3.5" />
                 Meta WhatsApp API Documentation
+              </a>
+            </div>
+            <div className="mt-4 pt-4 border-t border-border">
+              <a
+                href="https://satinova.in/chatio-setup"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-primary/80 transition-colors"
+              >
+                <ExternalLink className="size-3.5" />
+                Book Setup Support 
               </a>
             </div>
           </CardContent>
