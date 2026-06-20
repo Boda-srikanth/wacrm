@@ -1,8 +1,8 @@
 {
-  "name": "wacrm",
+  "name": "Chatio",
   "version": "0.2.2",
   "private": true,
-  "description": "Self-hostable CRM template for WhatsApp built on Next.js and Supabase — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations.",
+  "description": "Free Forever CRM with Whatsapp CLoud Integrated",
   "license": "MIT",
   "author": "Arnas Donauskas",
   "homepage": "https://github.com/ArnasDon/wacrm",
